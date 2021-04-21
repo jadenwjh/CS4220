@@ -3,26 +3,20 @@ Source code used for Project.
 
 ## Table of Content
 
-* [Isolation of Breast Cancer Related Genes' Expression](#Isolation-of-Breast-Cancer-Related-Genes'-Expression)
+* [Isolation of Breast Cancer Related Genes' Expression](#Isolation-of-Breast-Cancer-Related-Genes-Expression)
 * [Cibersort](#Cibersort)
 * [Cox Analysis](#Cox-Analysis)
 * [Random Survival Forest (RSF)](#RSF)
 * [Generation of Means Comparison Graphs](#Generation-of-Means-Comparison-Graphs)
 
 
-## Isolation of Breast Cancer Related Genes' Expression
+## Isolation of Breast Cancer Related Genes Expression
 
 * [Isolation of prognostic gene expression.ipynb](https://github.com/jadenwjh/CS4220/blob/main/Isolation%20of%20Breast%20Cancer%20Related%20Genes'%20Expression/Isolation%20of%20prognostic%20gene%20expression.ipynb)
     * Extracts the FPKM values for the genes-of-interest after filtering for the primary tumour samples' RNAseq data files for each case.
 
 * [Datasets](https://github.com/jadenwjh/CS4220/tree/main/Isolation%20of%20Breast%20Cancer%20Related%20Genes'%20Expression/datasets)
     * FPKM data of the patients, pulled from GDC.
-
-
-## Generation of Means Comparison Graphs
-
-* [Graphing.ipynb](https://github.com/jadenwjh/CS4220/tree/main/Graphing.ipynb)
-    * Plots barplots overlaid with scatters of datapoints for the testing and training accuracy metrics for the survival analysis models utilised.
 
 
 ## Cibersort
@@ -75,3 +69,9 @@ Source code used for Project.
 
 * [Random Survival Forest model](https://github.com/jadenwjh/CS4220/blob/main/RSF/RSF.ipynb)
     * Contains the code for Random Survival Forest model.
+
+
+## Generation of Means Comparison Graphs
+
+* [Graphing.ipynb](https://github.com/jadenwjh/CS4220/tree/main/Graphing.ipynb)
+    * Plots barplots overlaid with scatters of datapoints for the testing and training accuracy metrics for the survival analysis models utilised.
