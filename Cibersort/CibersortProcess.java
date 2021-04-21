@@ -193,7 +193,7 @@ public class CibersortProcess {
     private static void read() {
         int casesCount = 0;
         try {
-            File f = new File("./datasets/MANIFEST.txt");
+            File f = new File("./MANIFEST.txt");
             Scanner s = new Scanner(f);
             while (s.hasNextLine()) {
                 String in = s.nextLine();
@@ -221,7 +221,7 @@ public class CibersortProcess {
 
     private static Case unzip(String dir, String caseId) {
         try {
-            String f = "./datasets/" + dir;
+            String f = "./../Isolation of Breast Cancer Related Genes' Expression/datasets/" + dir;
             GZIPInputStream in = new GZIPInputStream(new FileInputStream(f));
             BufferedReader br = new BufferedReader(new InputStreamReader(in));
             Case caseObj = new Case(caseId);

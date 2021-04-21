@@ -3,17 +3,20 @@ Source code used for Project.
 
 ## Table of Content
 
-* [Isolation of Breast Cancer Related Genes' Expression]()
+* [Isolation of Breast Cancer Related Genes' Expression](#Isolation-of-Breast-Cancer-Related-Genes'-Expression)
 * [Cibersort](#Cibersort)
-* [Cox Analysis](#Cox_Analysis)
+* [Cox Analysis](#Cox-Analysis)
 * [Random Survival Forest (RSF)](#RSF)
-* [Generation of Means Comparison Graphs](#Generation_of_Means_Comparison_Graphs)
+* [Generation of Means Comparison Graphs](#Generation-of-Means-Comparison-Graphs)
 
 
 ## Isolation of Breast Cancer Related Genes' Expression
 
-* [Preprocessing](https://github.com/jadenwjh/CS4220/tree/main/Preprocessing)
+* [Isolation of prognostic gene expression.ipynb](https://github.com/jadenwjh/CS4220/tree/main/Preprocessing)
     * Extracts the FPKM values for the genes-of-interest after filtering for the primary tumour samples' RNAseq data files for each case.
+
+* [Datasets](https://github.com/jadenwjh/CS4220/tree/main/Cibersort/datasets)
+    * FPKM data of the patients, pulled from GDC.
 
 
 ## Generation of Means Comparison Graphs
@@ -32,10 +35,6 @@ Source code used for Project.
 
 * [filtered_cases.txt](https://github.com/jadenwjh/CS4220/blob/main/Cibersort/filtered_cases.txt)
     * Contains the 967 cases-of-interest after dropping cases or imputation (from 1098 cases).
-
-* [Datasets](https://github.com/jadenwjh/CS4220/tree/main/Cibersort/datasets)
-    * Using `filtered_cases.txt`, these datasets were pulled from GDC.
-    * Includes a `MANIFEST.txt` file, which contains the filenames of all downloaded files.
 
 * [File to case ID mapping](https://github.com/jadenwjh/CS4220/tree/main/Cibersort/file_case_mapping)
     * `MANIFEST.txt` file does not include the case ID of each dataset.
