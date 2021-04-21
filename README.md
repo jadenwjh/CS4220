@@ -1,5 +1,6 @@
 # CS4220
 Source code used for Project.
+Members: Yi Teng, Prashaad, Xin Yi, Jun Hong.
 
 ## Table of Content
 
