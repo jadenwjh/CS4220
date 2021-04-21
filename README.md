@@ -73,5 +73,5 @@ Source code used for Project.
 
 ## Generation of Means Comparison Graphs
 
-* [Graphing.ipynb](https://github.com/jadenwjh/CS4220/tree/main/Graphing.ipynb)
+* [Graphing.ipynb](https://github.com/jadenwjh/CS4220/blob/main/Graphs/Graphing.ipynb)
     * Plots barplots overlaid with scatters of datapoints for the testing and training accuracy metrics for the survival analysis models utilised.
