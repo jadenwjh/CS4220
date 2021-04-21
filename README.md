@@ -4,7 +4,7 @@ Source code used for Project.
 ## Codes used in the project
 
 * [Cibersort](#Cibersort)
-* [Cox Analysis](#Cox_Analysis)
+* [Cox Analysis](#CoxAnalysis)
 * [RSF](#RSF)
 
 
@@ -37,6 +37,6 @@ Source code used for Project.
     * The CIBERSORT output, containing the cellular proportion of each case, was then used as a feature for predicting survival.
 
 
-## Cox Analysis
+## CoxAnalysis
 
 ## RSF
