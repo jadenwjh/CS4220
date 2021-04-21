@@ -1,5 +1,4 @@
 # CS4220
-Source code used for Project.
 Members: Mani Hema Prashaad, Wang Yiteng, Wong Jun Hong, Yang Xinyi.
 
 ## Table of Content
