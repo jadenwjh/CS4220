@@ -74,5 +74,5 @@ Members: Yi Teng, Prashaad, Xin Yi, Jun Hong.
 
 ## Generation of Means Comparison Graphs
 
-* [Graphing.ipynb](https://github.com/jadenwjh/CS4220/blob/main/Graphs/Graphing.ipynb)
+* [Graphing.ipynb](https://github.com/jadenwjh/CS4220/blob/main/Generation%20of%20Means%20Comparison%20Graphs/Graphing.ipynbb)
     * Plots barplots overlaid with scatters of datapoints for the testing and training accuracy metrics for the survival analysis models utilised.
