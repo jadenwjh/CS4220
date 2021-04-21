@@ -1,6 +1,6 @@
 # CS4220
 Source code used for Project.
-Members: Yi Teng, Prashaad, Xin Yi, Jun Hong.
+Members: Mani Hema Prashaad, Wang Yiteng, Wong Jun Hong, Yang Xinyi.
 
 ## Table of Content
 
