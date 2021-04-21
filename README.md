@@ -9,11 +9,11 @@ Source code used for Project.
 
 ## Cibersort
 
+<img src="Cibersort/Cibersort.png" width="600" height="220"/>
+
 * [CibersortProcess.java](https://github.com/jadenwjh/CS4220/blob/main/Cibersort/CibersortProcess.java)
     * Executed to generate the mixture file to be sent to CIBERSORT.
     * Also determines the cases without FPKM data (GDC does not have FPKM records of these patients).
-
-    <img src="Cibersort/Cibersort.png" width="600" height="220"/>
 
 * [filtered_cases.txt](https://github.com/jadenwjh/CS4220/blob/main/Cibersort/filtered_cases.txt)
     * Contains the 967 cases-of-interest after dropping cases or imputation (from 1098 cases).
