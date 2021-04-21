@@ -1,11 +1,25 @@
 # CS4220
 Source code used for Project.
 
-## Codes used in the project
+## Table of Content
 
+* [Isolation of Breast Cancer Related Genes' Expression]()
 * [Cibersort](#Cibersort)
-* [Cox Analysis](#CoxAnalysis)
-* [RSF](#RSF)
+* [Cox Analysis](#Cox_Analysis)
+* [Random Survival Forest (RSF)](#RSF)
+* [Generation of Means Comparison Graphs](#Generation_of_Means_Comparison_Graphs)
+
+
+## Isolation of Breast Cancer Related Genes' Expression
+
+* [Preprocessing](https://github.com/jadenwjh/CS4220/tree/main/Preprocessing)
+    * Extracts the FPKM values for the genes-of-interest after filtering for the primary tumour samples' RNAseq data files for each case.
+
+
+## Generation of Means Comparison Graphs
+
+* [Graphing.ipynb](https://github.com/jadenwjh/CS4220/tree/main/Graphing.ipynb)
+    * Plots barplots overlaid with scatters of datapoints for the testing and training accuracy metrics for the survival analysis models utilised.
 
 
 ## Cibersort
@@ -40,16 +54,22 @@ Source code used for Project.
     * Contains the cellular proportion of each case. This was used as a feature for predicting survival.
 
 
-## CoxAnalysis
+## Cox Analysis
+
+* [CG_COX](https://github.com/jadenwjh/CS4220/blob/main/Cox%20Analysis/CG_COX.ipynb)
+
+* [CL_COX](https://github.com/jadenwjh/CS4220/blob/main/Cox%20Analysis/CL_COX.ipynb)
+
+* [CT_COX](https://github.com/jadenwjh/CS4220/blob/main/Cox%20Analysis/CT_COX.ipynb)
 
 
 ## RSF
 
-* [clinical features+y.csv](https://github.com/jadenwjh/CS4220/blob/main/RSF/clinical%20features%2By.csv)
+* [Clinical features](https://github.com/jadenwjh/CS4220/blob/main/RSF/clinical%20features%2By.csv)
     * Contains the 962 patients' clinical data and survival status.
 
-* [prognostic genes.csv](https://github.com/jadenwjh/CS4220/blob/main/RSF/prognostic%20genes.csv)
+* [Expression profile of Prognostic genes](https://github.com/jadenwjh/CS4220/blob/main/RSF/prognostic%20genes.csv)
     * Contains the gene expression data of 962 patients with regards to the prognostic genes.
 
-* [RSF.ipynb](https://github.com/jadenwjh/CS4220/blob/main/RSF/RSF.ipynb)
+* [Random Survival Forest model](https://github.com/jadenwjh/CS4220/blob/main/RSF/RSF.ipynb)
     * Contains the code for Random Survival Forest model.
