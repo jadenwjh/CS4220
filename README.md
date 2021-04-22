@@ -53,10 +53,14 @@ Members: Mani Hema Prashaad, Wang Yiteng, Wong Jun Hong, Yang Xinyi.
 ## Cox Analysis
 
 * [CG_COX](https://github.com/jadenwjh/CS4220/blob/main/Cox%20Analysis/CG_COX.ipynb)
+    * Cox and penalized Cox model for a combination of clinical and gene expression data after feature selection.
 
 * [CL_COX](https://github.com/jadenwjh/CS4220/blob/main/Cox%20Analysis/CL_COX.ipynb)
+    * Data processing including trimming and imputation for clinical data.
+    * Cox and penalized Cox model for only clinical features.
 
 * [CT_COX](https://github.com/jadenwjh/CS4220/blob/main/Cox%20Analysis/CT_COX.ipynb)
+    * Cox and penalized Cox model for a combination of clinical and TIIC data after feature selection.
 
 
 ## RSF
